@@ -1,0 +1,208 @@
+/* -------------------------------------------------------------------------- */
+
+
+/*                             Strat Third_Navbar                             */
+
+
+/* -------------------------------------------------------------------------- */
+
+.third_nav {
+    nav {
+        background-color: $secondColor !important;
+        /* -------------------------------------------------------------------------- */
+        /*                               Start_First_Ul                               */
+        /* -------------------------------------------------------------------------- */
+        .first_ul {
+            background-color: $mainColor;
+            margin-bottom: 0;
+            padding: 20px 40px;
+            margin-left: 13px;
+            .nav-item {
+                .dropdown-toggle {
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+                .dropdown-menu {
+                    position: absolute;
+                    top: 144%;
+                    left: -40px;
+                    width: 143%;
+                    border: 0px;
+                    border-radius: 0;
+                    /* -------------------------------------------------------------------------- */
+                    /*                               Start Inside_UL                              */
+                    /* -------------------------------------------------------------------------- */
+                    .inside_ul {
+                        .dropdown-item {
+                            padding: .25rem 1rem !important;
+                            &:hover img {
+                                border-color: $secondColor;
+                            }
+                            &:hover a {
+                                color: $mainColor;
+                            }
+                            img {
+                                border: 3px solid #f0f0f0;
+                                border-radius: 50%;
+                                padding: 3px;
+                                transition: .3s;
+                            }
+                            a {
+                                color: #777;
+                                text-decoration: none;
+                                text-transform: capitalize;
+                                transition: all .3s;
+                            }
+                        }
+                        .more_category {
+                            .dropdown-toggle {
+                                color: $mainColor;
+                            }
+                        }
+                    }
+                    /* -------------------------------------------------------------------------- */
+                    /*                               End Inside_UL                                */
+                    /* -------------------------------------------------------------------------- */
+                }
+            }
+        }
+        /* -------------------------------------------------------------------------- */
+        /*                               End_First_Ul                                 */
+        /* -------------------------------------------------------------------------- */
+        .navbar-collapse {
+            /* -------------------------------------------------------------------------- */
+            /*                               Start_Second_UL                              */
+            /* -------------------------------------------------------------------------- */
+            .nav-item {
+                margin-right: 15px;
+                .nav-link {
+                    color: $white;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                .dropdown-menu {
+                    position: absolute;
+                    top: 125%;
+                    left: -10px;
+                    overflow: hidden;
+                    padding: 15px;
+                    border: 5px solid $border_color;
+                    .dropdown-item {
+                        text-align: left !important;
+                        color: $white7;
+                        transition: transform ease-in-out .3s;
+                        &:hover {
+                            transform: scaleX(1.1);
+                            background-color: $white;
+                        }
+                        &:hover span::after {
+                            width: 100%;
+                        }
+                        span {
+                            position: relative;
+                            z-index: 1;
+                            overflow: hidden;
+                            text-transform: capitalize;
+                            &::after {
+                                content: "";
+                                background-color: rgba(0, 186, 242, 0.12);
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 0;
+                                height: 8px;
+                                transition: all .3s;
+                            }
+                        }
+                    }
+                }
+                .special_dropdown_menu {
+                    min-width: 1010px !important;
+                    left: -260px;
+                    .row {
+                        .col {
+                            ul {
+                                li {
+                                    margin: 10px 0;
+                                    &:not(:first-of-type) {
+                                        text-align: left !important;
+                                        color: $white7;
+                                        transition: transform ease-in-out .3s;
+                                        cursor: pointer;
+                                        &:hover {
+                                            transform: scaleX(1.1);
+                                            background-color: $white;
+                                        }
+                                        &:hover span::after {
+                                            width: 100%;
+                                        }
+                                        span {
+                                            position: relative;
+                                            z-index: 1;
+                                            overflow: hidden;
+                                            text-transform: capitalize;
+                                            &::after {
+                                                content: "";
+                                                background-color: rgba(0, 186, 242, 0.12);
+                                                position: absolute;
+                                                bottom: 0;
+                                                left: 0;
+                                                width: 0;
+                                                height: 8px;
+                                                transition: all .3s;
+                                            }
+                                        }
+                                    }
+                                    h4 {
+                                        font-weight: bold;
+                                        font-size: 15px;
+                                        text-transform: capitalize;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &:last-of-type {
+                    div {
+                        span {
+                            text-transform: uppercase;
+                            color: $white;
+                            font-weight: bold;
+                            &:first-of-type {
+                                color: $mainColor;
+                            }
+                        }
+                    }
+                }
+            }
+            /* -------------------------------------------------------------------------- */
+            /*                              End_Second_UL                                 */
+            /* -------------------------------------------------------------------------- */
+        }
+        /* -------------------------------------------------------------------------- */
+        /*                               Start Gift                                   */
+        /* -------------------------------------------------------------------------- */
+        .gift {
+            background-color: $mainColor;
+            padding: 23px;
+            cursor: pointer;
+            svg {
+                color: $white
+            }
+        }
+        /* -------------------------------------------------------------------------- */
+        /*                               End Gift                                     */
+        /* -------------------------------------------------------------------------- */
+    }
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                             Strat Third_Navbar                             */
+
+
+/* -------------------------------------------------------------------------- */

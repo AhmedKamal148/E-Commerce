@@ -1,0 +1,55 @@
+@import '../component/dropDown';
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                  First_Nav                                 */
+
+
+/* -------------------------------------------------------------------------- */
+
+.first_nav {
+    background-color: $mainColor;
+    .first_ul {
+        font-family: 'Source Sans Pro', sans-serif;
+        h4,
+        h5 {
+            font: {
+                size: 14px;
+                weight: 400 !important;
+            }
+            color: $white;
+            text-transform: capitalize;
+        }
+        svg {
+            font-size: 19px;
+        }
+    }
+    .second_ul {
+        font-family: 'Source Sans Pro', sans-serif;
+        li {
+            .nav-link {
+                font-size: 14px !important;
+                font-weight: 700;
+                color: $white;
+            }
+            .dropdown-menu {
+                &:last-of-type {
+                    transform: translate3d(-27px, 37px, 0px) !important;
+                }
+                .dropdown-item {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 Second_Nav                                 */
+
+
+/* -------------------------------------------------------------------------- */

@@ -1,0 +1,42 @@
+/* -------------------------------------------------------------------------- */
+
+
+/*                              Start_Mixins                                  */
+
+
+/* -------------------------------------------------------------------------- */
+
+@mixin overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@mixin prefix($property, $value, $prefixes:()) {
+    @each $prefix in $prefixes {
+        #{'-'+$prefix+'-'+$property}: $value;
+    }
+
+    #{$property}:$value;
+}
+
+@mixin box($x, $y, $b, $color) {
+    -webkit-box-shadow: $x $y $b $color;
+    -moz-box-shadow: $x $y $b $color;
+    -o-box-shadow: $x $y $b $color;
+    box-shadow: $x $y $b $color;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                              End_Mixins                                */
+
+
+/* -------------------------------------------------------------------------- */

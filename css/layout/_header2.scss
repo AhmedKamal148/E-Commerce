@@ -1,0 +1,49 @@
+/* -------------------------------------------------------------------------- */
+
+
+/*                              Start Main Style                              */
+
+
+/* -------------------------------------------------------------------------- */
+
+main {
+    font-family: 'Source Sans Pro', sans-serif;
+    .container {
+        .row {
+            .items {
+                .logo_side {
+                    width: 18% !important;
+                }
+                .input_side {
+                    width: 57%;
+                    .input-group {
+                        .input_icon {
+                            border: 1px solid #7777775e;
+                            padding: 25px;
+                        }
+                        input {
+                            padding: 25px 18px !important;
+                        }
+                        select {
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .shopping_side {
+                    svg {
+                        font-size: 22px;
+                        color: $mainColor;
+                    }
+                    .info {
+                        h4 {
+                            line-height: 1;
+                            text-transform: capitalize;
+                            font-size: 19px !important;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

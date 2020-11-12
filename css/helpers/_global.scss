@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none !important;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: $white9;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.none {
+    display: none !important;
+}
